@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    head{
+    text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	color:black;
+	font-size:2.0pt;
+	font: weight 200%;;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	border:none;
+    }
+    </style>
+
+<style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+    </head>
+    <body>
+    
+<img src="D:\ATS\fiyyaa\Documents\hana\logo_ats.jpg" alt="logo" style="width:10%;">
+<title>IT OFFBOARDING CLEARENCE FORM</title>
+</head>
+<body>
+<header>
+    <h2>IT OFFBOARDING CLEARENCE FORM </FORM></h2> 
+    <p>AT&S Austria Technologie & Systemtechnik (Malaysia) Sdn Bhd</p> 
+    <p> IT Operations Service Delivery Department</p> 
+       <style>
+          p{
+            font-weight: bold;
+          }
+       </style>
+
+    <style>
+        header{
+            text-align: center;
+        }
+    </style>
+</header>
+<br>
+<p> Employees are required to complete this checklist before/on last day of working day and return your IT
+     equipment mentioned below. Please fill and tick (√) on the box of the item when received from employee.</p>
+
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .box {
+      border: 1px solid;
+      border-color: black;
+      float: left;
+      width: 50%;
+      padding: 50px;
+      height: 300px;
+    }
+    
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ .small-heading {
+  font-size: 16px; 
+  
+     }
+</style>
+</head>
+<body>
+
+<div class="clearfix">
+  <div class="box" style="background-color:white" >
+  <h2 class="small-heading">EMPLOYEE DETAILS</h2>
+  <form action="http://localhost:8080" method="get">
+    <label for="name">Name:</label> 
+    <input type="text" id="employee_ID" name="Emp.ID"  required><br><br> 
+  
+    <label for="employee_id">Employee ID:</label>
+    <input type="text" id="employee_id" name="employee_id" required><br><br>
+  
+    <label for="Department">Department:</label>
+    <input type="text" id="Department" name="Department" required><br><br>
+  
+    <label for="Offboarding_Date">Offboarding Date:</label>
+    <input type="date" name="Offboarding_Date"  required><br><br>
+  </div>  
+
+  
+  <style>
+    .small-heading {
+        font-size: 16px; 
+    }
+</style>
+  <div class="box" style="background-color:white">
+    <h2 class="small-heading">EQUIPMENT CATEGORY</h2>
+  <form action="/action_page.php">
+    <input type="checkbox" id="equipment1" name="equipment" value="Laptop">
+    <label for="equipment1"> Laptop</label><br>
+    <input type="checkbox" id="equipment2" name="equipment2" value="Desktop PC">
+    <label for="equipment2"> Desktop PC</label><br>
+    <input type="checkbox" id="equipment3" name="equipment3" value="Other">
+    <label for="equipment3"> Other</label><br>
+     <p>Please mention: <input type="text" id="mentionField" name="mentionField"></p>
+   
+
+
+  </div>
+</div>
+
+  </head>
+  <body>
+
+
+      </style>
+      </head>
+      <body><br><br>
+        <style>
+            * {
+              box-sizing:border-box;
+            }
+            
+            .box2 {
+              border: 1px solid;
+              border-color: black;
+              float:left;
+              width: 50%;
+              padding: 50px;
+              height: 300px;
+            }
+            
+        .clearfix2::after {
+          content: "";
+          clear: both;
+          display: table;
+
+        }
+        </style>
+        </head>
+      
+        <title>EQUIPMENT DETAILS</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+       
+       .small-heading {
+        font-size: 16px; 
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="small-heading">EQUIPMENT DETAILS</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Brand</th>
+                <th rowspan="2">Model</th>
+                <th rowspan="2">Service Tag/SN</th>
+                <th colspan="3">Condition</th>
+                <th rowspan="2">Quantity</th>
+            </tr>
+            <tr>
+                <th>Good</th>
+                <th>Fair</th>
+                <th>Faulty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Add your data rows here -->
+            <tr>
+                <td contenteditable="true"></td>
+                <td contenteditable="true"></td>
+                <td contenteditable="true"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td contenteditable="true"></td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+    <body>
+        <style>
+            .small-heading {
+                font-size: 16px; 
+            }
+        </style>  
+    <br>
+    <body>
+        <h2 class="small-heading">ITEM AND ACCESSORIES</h2>
+    <table>
+        <tr>
+            <th rowspan="3">Monitor</th>
+            <td>Brand</td>
+            <td><input type="text" placeholder="Enter brand"></td>
+        </tr>
+        <tr>
+            <td>Model</td>
+            <td><input type="text" placeholder="Enter model"></td>
+        </tr>
+        <tr>
+            <td>Service Tag/SN</td>
+            <td><input type="text" placeholder="Enter service tag or serial number"></td>
+        </tr>
+        <tr>
+            <th>Mouse</th>
+            <td>Model</td>
+            <td><input type="text" placeholder="Enter mouse model"></td>
+        </tr>
+        <tr>
+            <th>Keyboard</th>
+            <td>Model</td>
+            <td><input type="text" placeholder="Enter keyboard model"></td>
+        </tr>
+             
+        <table style="width:100%">
+            
+        </table>
+    
+    </div>
+    
+
+       
+        </head>
+        <br>
+<body>
+
+
+</style>
+</head>
+<body><br><br>
+
+<body> 
+    <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Return</th>
+            <th colspan="3"> Condition </th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monitor</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty">Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>
+            <td>Mouse</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty">Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>
+            <td>Keyboard</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty">Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>
+            <td>E-port Docking Station</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty"> Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>
+            <td>Cable Lock</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty">Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>     
+            <td>Carrying Case & Backpack</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty">Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>
+            <td>Power Cords and Adapters</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty">Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>   
+          <tr>
+            <td>USB Storage</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty">Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>
+            <td>Accessories/Cables/Connectors</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty">Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>
+            <td>USB Broadband</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty">Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>
+            <td>Headphone & Mic</td>
+            <td contenteditable="true"></td>
+            <td><input type="checkbox" name="condition" value="Good"> Good</td>
+            <td><input type="checkbox" name="condition" value="Fair"> Fair</td>
+            <td><input type="checkbox" name="condition" value="Faulty">Faulty</td>
+            <td contenteditable="true"></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .row {
+            display: flex;
+        }
+        .column {
+            flex: 50%;
+            padding: 5px;
+        }
+        table {
+            border-collapse: collapse; 
+            width: 100%;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .small-heading {
+            font-size: 16px; 
+        }
+    </style>
+    
+    <body>
+        <div class="row">      
+            <div class="column">    
+                <h2 class="small-heading">RETURNED BY</h2>     
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <td contenteditable="true"></td>   
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <th>Signature</th>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <th>Department</th>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="column">     
+                <h2 class="small-heading">VERIFIED BY</h2>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td contenteditable="true"></td>
+                        
+                    </tr>
+                    <tr>
+                        <th>Signature</th>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <th>Department</th>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+     
+    <style>
+        .column {
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
+<title>FOR INTERNAL IT USE ONLY</title>
+<style>
+    /* Add any custom styling here */
+    .container {
+        display: flex;
+    }
+    .table-container {
+        flex: 1;
+        padding: 10px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color:#f2f2f2;
+    }
+    .small-heading {
+            font-size: 16px; 
+    }
+
+</style>
+</head>
+<body>
+    <h1 class="small-heading">FOR INTERNAL IT USE ONLY</h1>   
+
+<div class="container">
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2"> Status </th>
+                    <th>Pending Items (if Not Clear)</th>
+                    <th>Remark</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox"> Clear </td>
+                    <td><input type="checkbox"> Not Clear </td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Signature</th>
+                    <th>Name</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+    
+    
+     
+    
+    
+    
+    </html>
+
+
+      
